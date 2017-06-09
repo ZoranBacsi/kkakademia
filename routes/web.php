@@ -12,7 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+Route::get('/aktualis', function () {
+    return view('pages.aktualis');
+});
+Route::get('/programszervezes', function () {
+    return view('pages.programszervezes');
+});
+Route::get('/cornelius', function () {
+    return view('pages.cornelius');
+});
+Route::get('/palyazat', function () {
+    return view('pages.palyazat');
+});
+Route::get('/jelentesek', function () {
+    return view('pages.jelentesek');
+});
+Route::get('/kapcsolat', function () {
+    return view('pages.kapcsolat');
 });
 
 Auth::routes();
