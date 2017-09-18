@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <div class="row">
+        <div class="row color-bg">
             <div class="col-md-10 col-md-offset-1">
                 <h3>Üdvözöljük honlapunkon!</h3>
                 <p>

@@ -795,7 +795,7 @@ var app = new Vue({
 /* 9 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: /home/sgohehrx/kkakademia.hu/node_modules/mozjpeg/vendor/cjpeg: /lib/libc.so.6: version `GLIBC_2.14' not found (required by /home/sgohehrx/kkakademia.hu/node_modules/mozjpeg/vendor/cjpeg)\n\n    at Promise.all.then.arr (/home/sgohehrx/kkakademia.hu/node_modules/execa/index.js:201:11)\n    at process._tickCallback (internal/process/next_tick.js:109:7)\n    at runLoaders (/home/sgohehrx/kkakademia.hu/node_modules/webpack/lib/NormalModule.js:192:19)\n    at /home/sgohehrx/kkakademia.hu/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /home/sgohehrx/kkakademia.hu/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/home/sgohehrx/kkakademia.hu/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at /home/sgohehrx/kkakademia.hu/node_modules/img-loader/index.js:45:31");
 
 /***/ }),
 /* 10 */
@@ -31651,7 +31651,7 @@ var Component = __webpack_require__(35)(
   /* cssModules */
   null
 )
-Component.options.__file = "/var/www/html/kkakademia/resources/assets/js/components/Example.vue"
+Component.options.__file = "/home/sgohehrx/kkakademia.hu/resources/assets/js/components/Example.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Example.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31662,9 +31662,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-522ea0b9", Component.options)
+    hotAPI.createRecord("data-v-602ee484", Component.options)
   } else {
-    hotAPI.reload("data-v-522ea0b9", Component.options)
+    hotAPI.reload("data-v-602ee484", Component.options)
   }
 })()}
 
@@ -31753,7 +31753,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-522ea0b9", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-602ee484", module.exports)
   }
 }
 

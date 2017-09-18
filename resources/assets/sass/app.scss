@@ -5,7 +5,11 @@
   margin-bottom: 10px;
 }
 body{
-  background-color: $body-bg;
+  background-color: #EDE6D9;
+  background-image: url('img/texture.jpg');
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: top left;
 }
 .icon{
   width: 100px;
@@ -82,4 +86,8 @@ a{
 footer{
   background-color: #fff;
   border-top: 1px solid #ddd;
+}
+
+.created{
+  text-align:right;
 }

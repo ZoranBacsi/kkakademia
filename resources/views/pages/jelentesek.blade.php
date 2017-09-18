@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <div class="row">
+        <div class="row color-bg">
             <div class="col-md-10 col-md-offset-1">
                 <h3>Jelentések:</h3>
                 <p>
@@ -18,9 +18,8 @@
                     <br><br>
                 </p>
                 <p>
-                    <a href="doc/KKA2015.pdf">A kettős könyvvitelt vezető egyéb szervezet egyszerűsített beszámolója és közhasznusági melléklete</a><br><br>
-                    <a href="doc/KKAbesz2013.pdf">Közhasznúsági éves jelentés</a><br><br>
-                    <a href="doc/merleg2014.rtf">Egyszerüsített Közhasznúsági éves jelentés</a><br>
+                    <a href="doc/KKA2015.pdf">A kettős könyvvitelt vezető egyéb szervezet egyszerűsített beszámolója és közhasznúsági melléklete</a><br><br>
+                    <a href="doc/merleg2016.pdf">Egyszerüsített Közhasznúsági éves jelentés - 2016</a><br>
                 </p>
             </div>
         </div>
